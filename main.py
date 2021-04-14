@@ -143,8 +143,7 @@ def quest6():
       mut1.append(float(linha[1]))
       mut2.append(float(linha[2]))
       wt.append(float(linha[3][:-1]))
-
-  # plt.ticklabel_format(useOffset=False, style='plain')
+  
   plt.plot(mut1, color='red')
   plt.plot(mut2, color='blue')
   plt.plot(wt, color='green')

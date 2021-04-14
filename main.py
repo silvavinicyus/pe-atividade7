@@ -162,8 +162,7 @@ def quest7():
   for linha in arq:
     linha = linha.split('\t')
 
-    if ('Bodyweight ' not in linha):
-      # print(linha)
+    if ('Bodyweight ' not in linha):      
       yposition = float(linha[1])
       xposition = float(linha[2])
 
